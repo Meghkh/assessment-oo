@@ -155,7 +155,8 @@ class StudentQuiz(StudentExam):
 
 
 def example():
-    """Creates exam, adds questions, creates student, Instantiates StudentExam, administers exam"""
+    """Creates exam/quiz, adds questions, creates student,
+    Instantiate StudentExam/StudentQuiz, administer exam/quiz"""
 
     # create exam
     exam = Exam('midterm')
