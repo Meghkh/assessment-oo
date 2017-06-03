@@ -109,8 +109,10 @@ class StudentExam(object):
         self.score = self.exam.administer()
         print "Final score: {}".format(self.score)
 
-    # def __repr__(self):
-    #     """"""
+    def __repr__(self):
+        """Return a printable representation of StudentExam."""
+
+        return "<class '__main__.StudentExam'>"
 
 
 class Quiz(Exam):
@@ -135,8 +137,10 @@ class Quiz(Exam):
         else:
             return 1
 
-    # def __repr__(self):
-    #     """"""
+    def __repr__(self):
+        """Return a printable representation of StudentExam."""
+
+        return "<class '__main__.Quiz'>"
 
 
 class StudentQuiz(StudentExam):
@@ -150,8 +154,10 @@ class StudentQuiz(StudentExam):
         else:
             print "You failed :'("
 
-    # def __repr__(self):
-    #     """"""
+    def __repr__(self):
+        """Return a printable representation of StudentExam."""
+
+        return "<class '__main__.StudentQuiz'>"
 
 
 def example():
